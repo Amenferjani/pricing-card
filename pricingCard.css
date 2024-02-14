@@ -1,0 +1,305 @@
+body{
+    background-color: rgb(18, 17, 17);
+    box-shadow: 0 0 30px #681414;
+}
+
+header div{
+    margin-top: -24px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60px;
+    width: 280px;
+    background-color: rgb(160, 9, 9);
+    box-shadow: 0 0 1px #f2f4f7;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+header div h6{  
+    font-family:Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    text-align: center;
+    color: aliceblue;
+}
+header div h3{
+    font-family:Arial, Helvetica, sans-serif;
+    height: 15px;
+    margin-top: -20px;
+    text-align: center;
+    color: aliceblue;
+}
+.mainPage{
+    margin-top:50px;
+    color: azure;
+}
+.mainPage h2{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif
+}
+.payPlan{
+    
+    display: flex;
+    width: 205px;
+    height: 40px;
+    /* background-color: #030303; */
+    margin-left: auto ;
+    margin-right: auto;
+}
+.payPlan h6{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 7px;
+    font-family:Arial, Helvetica, sans-serif
+}
+.switch {
+    
+    position: relative;
+    display: inline-block;
+    width: 55px;
+    height: 27px;
+  }
+  
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(255, 255, 255);
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 4px;
+    bottom: 4px;
+    background-color: rgb(2, 2, 2);
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 80px;
+    -webkit-border-radius: 80px;
+    -moz-border-radius: 80px;
+    -ms-border-radius: 80px;
+    -o-border-radius: 80px;
+}
+  
+  input:checked + .slider {
+    background-color: rgb(160, 9, 9);
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #ffffff;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+.cards{
+    font-family:Arial, Helvetica, sans-serif;
+    align-items: center;
+    margin-top: 20px;
+    width: 1010px;
+    /* background-color: aliceblue; */
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    padding-bottom: 30px;
+}
+.starter{
+    
+    background-color: rgb(31, 34, 38);
+    width: 330px;
+    height: 450px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    box-shadow: 0 0 5px #681414;
+}
+.starter h4{
+    font-size: 20px;
+    margin-top: 35px;
+    text-align: center;
+}
+.prise{
+    font-size: 40px;
+    margin-top: 25px;
+    text-align: center;
+}
+.starter button{
+    width: 220px;
+    height: 45px;
+    color: azure;
+    background-color: rgb(31, 34, 38);
+    /* border-color:rgb(48, 3, 3); */
+    box-shadow: 0 0 3px #681414;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-left: 45px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+.starter button:hover{
+    background-color: rgb(160, 9, 9);
+}
+.starter:hover{
+  
+  scale: 1.07;
+  
+}
+.pro{
+    margin-left: 10px;
+    
+    background-color: rgb(31, 34, 38);
+    border-radius: 5px;
+    width: 330px;
+    height: 450px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    box-shadow: 0 0 5px #681414;
+}
+.pro:hover{
+  scale: 1.07;
+  
+}
+.mau-menu {
+    height: 50px;
+    width: 220px;
+    margin-top: -14px;
+    
+  }
+  
+  /* .mau-menu label {
+    display: block;
+  } */
+  
+  .mau-menu select {
+    margin-left: 55px;
+    background-color: rgb(31, 34, 38);
+    color: azure;
+    height: 50px;
+    width: 220px;
+    padding: 5px;
+    box-shadow: 0 0 3px #681414;
+    border-color: azure;
+  }
+.pro button{
+    width: 220px;
+    height: 45px;
+    color: azure;
+    background-color: rgb(31, 34, 38);
+    /* border-color:rgb(48, 3, 3); */
+    box-shadow: 0 0 3px #681414;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-left: 45px;
+    margin-top: 27px;
+    font-size: 18px;
+}
+.pro button:hover{
+    background-color: rgb(160, 9, 9);
+}
+.pro h4{
+    margin-top: 35px;
+    text-align: center;
+}
+.enterprise{
+    margin-left: 10px;
+    
+    background-color: rgb(31, 34, 38);
+    border-radius: 5px;
+    width: 330px;
+    height: 450px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    box-shadow: 0 0 5px #681414;
+}
+.enterprise:hover{
+  scale: 1.07;
+  
+}
+.enterprise button{
+    width: 220px;
+    height: 45px;
+    color: azure;
+    background-color: rgb(31, 34, 38);
+    /* border-color:rgb(48, 3, 3); */
+    box-shadow: 0 0 3px #681414;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-left: 45px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+.enterprise button:hover{
+    background-color: rgb(160, 9, 9);
+}
+.enterprise h4{
+    margin-top: 35px;
+    text-align: center;
+}
+.enterprise h1{
+    font-size: 30px;
+    margin-top: 30px;
+    text-align: center;
+}
+.red-bullet-paragraph {
+    margin-top: 25px;
+    font-size: 15px;
+    flex-direction: column;
+  }
+  
+  .red-bullet-paragraph p {
+    margin-left: 45px;
+    position: relative;
+    padding-left: 10px;
+  }
+  
+  .red-bullet-paragraph p::before {
+    
+    content: "\2022";
+    color: rgb(91, 32, 97);
+    position: absolute;
+    left: 0;
+  }
+  .red-bullet-paragraph div{
+    margin-top: 70px;
+  }
+  
+  
+

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pricing Card</title>
+        <link rel="stylesheet" href="pricingCard.css">
+    </head>
+    <body>
+        <header>
+            <div id="header div">
+                <h6>your current plan :</h6>
+                <h3>No Trail - 00 MAUs </h3>
+            </div>
+        </header>
+        <div class = "mainPage">
+            <h2>Choose a plan</h2>
+            <div class="payPlan">
+                <h6>pay monthly</h6>
+                <label class="switch">
+                    <input type="checkbox" id="toggleSwitch">
+                    <span class="slider round"></span>
+                </label>  
+                <h6>pay annually</h6>  
+            </div>
+            <div class = "cards">
+                <div id="starter" class = "starter">
+                    <h4>Starter</h4>
+                    <h1 id="starterPrise" class="prise">$19 </h1>
+                    <div class="red-bullet-paragraph">
+                        <p>500 MAUs</p>
+                        <p>3 projects</p>
+                        <p>Unlimited guides</p>
+                        <p>Unlimited flows</p>
+                        <p>Unlimited branded themes</p>
+                        <p>Email support</p>
+                    </div>
+                    <button id="starter button">Choose Plan</button>
+                </div>
+                <div id="pro" class = "pro">
+                    <h4>Pro</h4>
+                    <h1 id="proPrise"class="prise">$99</h1>
+                    <div class="mau-menu">
+                        
+                        <select id="mau-select">
+                            <option value="1000">1 000 MAUs</option>
+                          <option value="2500">2 500 MAUs</option>
+                          <option value="5000">5 000 MAUs</option>
+                          <option value="10000">10 000 MAUs</option>
+                        </select>
+                      </div>
+                    <div class="red-bullet-paragraph">
+                        <p>All starter features plus :</p>
+                        <p>Unlimited projects</p>
+                        <p>Unlimited fully customized themes</p>
+                        <p>A detected Customer Success Manager</p>
+                    </div>
+                    <button id ="pro button">Choose Plan</button>
+                </div>
+                <div id ="enterprise" class="enterprise">
+                    <h4>Enterprise</h4>
+                    <h1 >Let's Talk!</h1>
+                    <div class="red-bullet-paragraph">
+                        <div>
+                            <p>All Pro features </p>
+                            <p>Unlimited MAUs</p>
+                            <p>Detected environment</p>
+                            <p>Enterprise account administration</p>
+                            <p>Premium support and services </p>
+                        </div>
+                    </div>
+                    <button id="enterprise button">..</button>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="pricingCard.js"></script>
+</html>
